@@ -28,7 +28,8 @@ The function returns trained model and model_name (related to the saved model fi
 <br />
 I have prepared training blokes for each one of the models with defined inputs for the best results<br />
 Please comment/uncomment relevant block for training.<br />
-Example:<br />
+Example:  
+
 ![image](https://user-images.githubusercontent.com/108329249/178115922-3c27cbff-20c5-4b94-a331-de478afc5469.png)
 
 ## Load and Test
@@ -40,7 +41,8 @@ Loading pre trained model using the function load_model(model_name)
 <br />
 I have prepared loading and testing blokes for each one of the trained models<br />
 Please comment/uncomment relevant block for testing.<br />
-Example:<br />
+Example:  
+
 ![image](https://user-images.githubusercontent.com/108329249/178115928-1e195ff6-b9e4-4d50-9454-1773cbb11ba4.png)
 
 ## Results
