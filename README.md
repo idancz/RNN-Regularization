@@ -29,7 +29,7 @@ The function returns trained model and model_name (related to the saved model fi
 I have prepared training blokes for each one of the models with defined inputs for the best results<br />
 Please comment/uncomment relevant block for training.<br />
 Example:<br />
-![image](https://user-images.githubusercontent.com/108329249/178115566-fd09bd09-8043-4ec7-bcfe-e51fb4bb37fe.png)
+![image](https://user-images.githubusercontent.com/108329249/178115922-3c27cbff-20c5-4b94-a331-de478afc5469.png)
 
 ## Load and Test
 Loading pre trained model using the function load_model(model_name)
@@ -41,8 +41,7 @@ Loading pre trained model using the function load_model(model_name)
 I have prepared loading and testing blokes for each one of the trained models<br />
 Please comment/uncomment relevant block for testing.<br />
 Example:<br />
-![image](https://user-images.githubusercontent.com/108329249/178115610-0158c348-860c-4446-a86c-fdb2056dafc4.png)
-
+![image](https://user-images.githubusercontent.com/108329249/178115928-1e195ff6-b9e4-4d50-9454-1773cbb11ba4.png)
 
 ## Results
 I found that using Dropout has shown best performance with lower test perplexity for both LSTM and GRU,<br />
