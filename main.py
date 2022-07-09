@@ -1,12 +1,14 @@
 from graph_and_stats import *
 import pickle
 
-if __name__ == '_main_':
-    global train_perplexity_dict
-    global validation_perplexity_dict
-    global test_perplexity_dict
-    global learning_rate_dict
-    global path, data_path, models_path
+global train_perplexity_dict
+global validation_perplexity_dict
+global test_perplexity_dict
+global learning_rate_dict
+global path, data_path, models_path
+
+
+def main():
     print(device)
     ########################################################################################################
     ################################################# Train ################################################
@@ -151,3 +153,7 @@ if __name__ == '_main_':
     trained_test_loss, trained_model_perplexity = test_model(pre_trained_model)
     print(f"\nThe {ModelName} pre trained model test loss is: {trained_test_loss:.3f} and test perplexity is: {trained_model_perplexity:.3f}\n")
     #####################################################################################################################################
+
+
+if __name__ == '__main__':
+    main()
