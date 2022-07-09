@@ -29,8 +29,7 @@ The function returns trained model and model_name (related to the saved model fi
 I have prepared training blokes for each one of the models with defined inputs for the best results<br />
 Please comment/uncomment relevant block for training.<br />
 Example:<br />
-![image](https://user-images.githubusercontent.com/108329249/178115021-e3246b86-97c5-4a5c-a33e-a2889ae1dc35.png)
-
+![image](https://user-images.githubusercontent.com/108329249/178115566-fd09bd09-8043-4ec7-bcfe-e51fb4bb37fe.png)
 
 ## Load and Test
 Loading pre trained model using the function load_model(model_name)
@@ -42,8 +41,7 @@ Loading pre trained model using the function load_model(model_name)
 I have prepared loading and testing blokes for each one of the trained models<br />
 Please comment/uncomment relevant block for testing.<br />
 Example:<br />
-![image](https://user-images.githubusercontent.com/108329249/178115117-200579f9-70d6-48eb-8553-9fcf969f8dd9.png)
-
+![image](https://user-images.githubusercontent.com/108329249/178115610-0158c348-860c-4446-a86c-fdb2056dafc4.png)
 
 
 ## Results
@@ -53,5 +51,18 @@ While comparing the models without Dropout, the GRU gave better results than LST
 
 You can see below summary table of our results:<br />
 ![image](https://user-images.githubusercontent.com/108329249/178115110-5fd98ba5-ef90-4f88-9605-3ed1b8f8cffc.png)
+
+## Graphs
+### LSTM using SGD optimizer  test perplexity = 91.25
+![image](https://user-images.githubusercontent.com/108329249/178115513-7b92e32f-fd08-4a5a-b6ca-9a2e3011be76.png)
+
+### LSTM with Dropout=0.5 model using SGD optimizer  test perplexity = 76.569
+
+
+### GRU using SGD with Weight_Decay=0.0001 optimizer  test perplexity = 90.968
+
+
+### GRU with Dropout=0.5 using SGD optimizer  test perplexity = 80.41
+
 
 
