@@ -53,15 +53,16 @@ You can see below summary table of our results:<br />
 
 ## Graphs
 ### LSTM using SGD optimizer  test perplexity = 91.25
-![image](https://user-images.githubusercontent.com/108329249/178115513-7b92e32f-fd08-4a5a-b6ca-9a2e3011be76.png)
+![image](https://user-images.githubusercontent.com/108329249/178115996-a4764e00-89e6-4cc8-a347-bcf99b9c4370.png)
 
 ### LSTM with Dropout=0.5 model using SGD optimizer  test perplexity = 76.569
-
+![image](https://user-images.githubusercontent.com/108329249/178116012-cfe1badc-0518-4bb2-ab00-40a799e731ca.png)
 
 ### GRU using SGD with Weight_Decay=0.0001 optimizer  test perplexity = 90.968
-
+![image](https://user-images.githubusercontent.com/108329249/178116020-2394f43a-01d4-4f92-b5f2-f1eb8debb1cb.png)
 
 ### GRU with Dropout=0.5 using SGD optimizer  test perplexity = 80.41
+![image](https://user-images.githubusercontent.com/108329249/178116030-e3a3493f-4536-4981-9765-64fa4ddc761b.png)
 
 
 
